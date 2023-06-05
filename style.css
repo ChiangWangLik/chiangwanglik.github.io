@@ -57,7 +57,7 @@ img{
 }
 .tab{
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 4px;
 }
 .column3{
     float: left;
