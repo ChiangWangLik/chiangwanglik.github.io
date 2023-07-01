@@ -13,7 +13,7 @@
             <div class="box_a">
                 <center>
                     <img src="propic.JPG" width="150">
-                    <h1>Chiang Wang Lik Edward</h1>
+                    <h1><span id="element"></span></h1>
                     <h3>Website Designer
                         <span class="tab">
                             <a href = "mailto:21lysec@gmail.com" style="color: rgb(111, 92, 255)";>
@@ -37,16 +37,16 @@
                 <br>
                 <div class="row">
                     <div class="column3">
-                        <p>E - Enthusiastic</p>
-                        <p>A - Attentive</p>
+                        <p><i style="color: rgb(185, 171, 110)">E</i> - Enthusiastic</p>
+                        <p><i style="color: rgb(185, 171, 110)">A</i> - Attentive</p>
                     </div>
                     <div class="column3">
-                        <p>D - Diligent</p>
-                        <p>R - Respectful</p>
+                        <p><i style="color: rgb(185, 171, 110)">D</i> - Diligent</p>
+                        <p><i style="color: rgb(185, 171, 110)">R</i> - Respectful</p>
                     </div>
                     <div class="column3">
-                        <p>W - Well-considered</p>
-                        <p>D - Dedicated</p>
+                        <p><i style="color: rgb(185, 171, 110)">W</i> - Well-considered</p>
+                        <p><i style="color: rgb(185, 171, 110)">D</i> - Dedicated</p>
                     </div>
                 </div>
                 <br>
@@ -54,8 +54,19 @@
                     <h3>This is EDWARD</h3>
                     <h3>This is me</h3>
                 </center>
+                <!-- <center>
+                    <h3><span id="element"></span></h3>
+                </center> -->
             </div>
         </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                // strings: ['This is me', 'This is EDWARD'],
+                strings: ['Chiang Wang Lik Edward'],
+                typeSpeed: 50,
+            });
+        </script>
     </body>
 </html>
     
