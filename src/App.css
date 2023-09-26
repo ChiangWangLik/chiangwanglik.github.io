@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home, .page-title {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.skills, .experience, .about-me {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 1px;
+}
+
+.page-title {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 100px;
+}
+
+.skills {
+  background-image: url("/images/lightbulb-1.jpg");
+}
+
+.experience {
+  background-image: url("/images/lightbulb-2.jpg");
+}
+
+.about-me {
+  background-image: url("/images/bg.JPG");
+}
+
+hr.rounded {
+  border-top: 2px solid;
+  border-radius: 2px;
+  border-bottom: 2px;
+  border: 1px solid rgb(155, 174, 148);
+  margin: 8px 0;
+}
+
+.box {
+  padding: 0 30px 30px;
+  border: 2px solid rgb(155, 174, 148);
+  margin: auto;
+  margin-bottom: 5%;
+  width: 500px;
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.box > img {
+  border-radius: 40%;
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+}
+
+.box > h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+.box > h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 25px 0 25px;
+}
+
+.box > p {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+.company {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(155, 174, 148);
+  margin: 10px auto;
+}
+
+.position {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(185, 171, 110);
+  margin: 10px auto;
+}
+
+.datetime {
+  font-size: 24px;
+  margin: 15px auto;
+}
+
+.description {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.level {
+  font-size: 24px;
+  display: flex;
+  margin: 12px auto;
+  justify-content: space-evenly;
+}
+
+.level > span {
+  text-align: center;
+}
+
+.skills-container, .name-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-items, .name-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.skills-items > h2 {
+  font-size: 24px;
+  margin: 5px 0;
+  border: rgb(125, 127, 179) solid 2px;
+  padding: 7px;
+}
+
+.skills-items > h3 {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.skills-items > p, .skills-items > span {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.name-intro > p {
+  margin: 5px 0;
+}
+
+p > i {
+  color: rgb(185, 171, 110);
+}
+
+h4 > i.fa-solid.fa-star {
+  font-size: 24px;
+  margin: 7px 0px;
+}
+
+i.fa-solid.fa-star {
+  color: rgb(185, 171, 110);
+}
