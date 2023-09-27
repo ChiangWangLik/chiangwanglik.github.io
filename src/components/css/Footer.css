@@ -131,10 +131,6 @@
 }
 
 @media screen and (max-width: 820px) {
-  .footer-links {
-    padding-top: 2rem;
-  }
-
   .footer-input {
     width: 100%;
   }
@@ -149,5 +145,19 @@
 
   .social-media-wrap {
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto 0 auto;
+  }
+
+  .social-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
   }
 }
