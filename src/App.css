@@ -176,6 +176,13 @@ i.fa-solid.fa-star {
     font-size: 3rem;
   }
 
+  .skills, .experience, .about-me {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 1px;
+  }
+
   .skills {
     background-position: 100% 100%;
   }
