@@ -11,6 +11,20 @@ export default function Experience() {
           <h1>Experience</h1>
           <hr className="rounded" />
 
+          <h3 className="datetime">Oct 2023 - Present</h3>
+          <h3 className="company">
+            Department of Justice
+          </h3>
+          <p className="position">Junior Programmer</p>
+          <p className="description">
+            - Assist the Judiciary in implementing systems under IT Strategy Plan
+            <br />
+            <br />
+            - Develop program to help with the case filing and managing for judges
+          </p>
+
+          <hr className="rounded" />
+
           <h3 className="datetime">Nov 2022 - Dec 2022</h3>
           <h3 className="company">
             Centre for the Enhancement of Teaching and Learning

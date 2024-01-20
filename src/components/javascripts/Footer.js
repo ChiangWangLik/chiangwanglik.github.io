@@ -37,7 +37,7 @@ function Footer() {
               Edward <i className="fa-solid fa-seedling" />
             </Link>
           </div> */}
-          <small className="website-rights">Edward © 2023</small>
+          <small className="website-rights">Edward © 2024</small>
           {/* <div className="social-icons">
             <Link className='social-icon-link twitter' to='https://www.linkedin.com/in/edward-chiang-488449290/' target='_blank' aria-label='LinkedIn'>
               <i className='fab fa-linkedin' /> LinkedIn

@@ -66,6 +66,7 @@ export default function Skills() {
               <p>CSS</p>
               <p>JavaScript</p>
               <p>Vue.js</p>
+              <p>Java</p>
               <p>-</p>
               <span>
                 <i className="fa-solid fa-star" />
@@ -80,7 +81,6 @@ export default function Skills() {
                 <i className="fa-solid fa-star" />
                 <i className="fa-solid fa-star" />
               </span>
-              <p>Java</p>
               <p>PHP</p>
               <p>SQL</p>
             </div>
